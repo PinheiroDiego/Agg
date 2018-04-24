@@ -19,7 +19,7 @@
 					<ul class="menu">
 						<li><a href="../home">Home</a></li>
 						<li><a href="../quem-somos">quem somos</a></li>
-						<li><a href="#">Serviços</a>
+						<li class="servicos"><a href="#">Serviços</a>
 						<ul class="sub-menu">
      					    <li><a href="../servicos">Site Institucional</a></li>
      						<li><a href="../servicos">Ecommerce</a></li>

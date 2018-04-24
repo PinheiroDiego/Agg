@@ -1,26 +1,48 @@
-/*Configurações Padrões*/
-ul.menu, .menu li, .menu a{ margin:0; padding:0; list-style:none; text-decoration:none;}
-ul.menu ul{ position:absolute; display:none; box-shadow:3px 3px 2px #333;}
+ul.menu, .menu li, .menu a{ 
+  margin:0; padding:0; list-style:none; text-decoration:none;
+}
+ul.menu ul{ 
+  position:absolute; display:none; box-shadow:3px 3px 2px #333;
+}
  
-/* Configurações nivel 1*/
-ul.menu{ float:left; font-family:Verdana, Geneva, sans-serif; font-size:15px; border-radius:5px; padding:0 5px;}
-.menu li{ float:left; width:auto; position:relative;}
-.menu li a{ display:block; line-height:45px; height:45px; float:left; transition:all 0.1s linear; }
+ul.menu{ 
+  float:left; font-family:Verdana, Geneva, sans-serif; font-size:15px; border-radius:5px; padding:0 5px;
+}
+.menu li{ 
+  float:left; width:auto; position:relative; white-space: nowrap;
+}
+.menu li a{ 
+  display:block; line-height:45px; height:45px; float:left; transition:all 0.1s linear; padding: 10px 20px; width: auto; letter-spacing: 1px;
+}
  
-/* Configurações nivel 2*/
-.menu li:hover > ul.sub-menu{ display:block; top:45px; left:0; padding:5px; width:230px; border-radius:0 0 5px 5px;   }
-.menu ul.sub-menu a{  width:225px; padding:0 20px; border-radius:5px;  }
+.menu li:hover > ul.sub-menu{ 
+  display:block; top:34px; left:0; padding:5px; width:230px; border-radius:0 0 5px 5px;   
+}
+.menu ul.sub-menu a{  
+  width:225px; padding:0 20px; border-radius:5px;  line-height:45px; height:45px; 
+}
 
-.menu {padding-left: 15px;
-    padding-right: 15px;
-    height: 64px;}
+.menu li:hover > ul.sub-menu2{ 
+  display:block; top:34px; left:0; padding:5px; width:230px; border-radius:0 0 5px 5px;   
+}
+.menu ul.sub-menu2 a{  
+  width:225px; padding:0 20px; border-radius:5px;  line-height:45px; height:45px; 
+}
 
-/*Configurações de cores*/
- 
-/*nivel 2*/
-.sub-menu{ background:#999;}
-.sub-menu {background: #333; }
-.menu li:hover > a{ background:#333;  color:#333; }
+.sub-menu {
+  background: #333; 
+}
+li.servicos:hover > a{ 
+  background:#333; 
+}
+
+.sub-menu2 {
+  background:#F2F2F2; 
+}
+
+li.servicos2:hover > a{ 
+  background:#F2F2F2; 
+}
 
 .bg-primary {
   background-color: #e7481d !important;
@@ -517,7 +539,6 @@ nav hr {
 }
 .menu li {
   float: left;
-  margin-right: 56px;
   position: relative;
 }
 .menu li:last-child {
@@ -533,7 +554,6 @@ nav hr {
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   transition: all .5s ease;
-  padding-bottom: 40px;
   display: inline-block;
   line-height: 14px;
 }
@@ -4075,7 +4095,7 @@ footer.short-2 .contact-action:hover {
   }
   .fullscreen-nav-container .menu li {
     margin-bottom: 0px;
-    line-height: 76px;
+    line-height: 32px;
   }
   .fullscreen-nav-container .menu li a {
     font-size: 24px;
